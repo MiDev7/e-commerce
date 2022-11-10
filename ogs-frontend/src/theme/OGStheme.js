@@ -4,14 +4,17 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
     palette:{
       primary:{
-        main:'#42731f'
+        main:'#42731f',
+        contrastText: '#F2F2F2'
       },
       secondary:{
-        main: '#d9b19a'
+        main: '#F2F2F2',
+        contrastText: '#42731f'
       },
       error:{
         main: 'rgba(222, 53, 53, 0.9)'
-      }
+      },
+      
     },
     components:{
       MuiChip:{
