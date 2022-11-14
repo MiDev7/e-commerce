@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     root:{
         textAlign: 'left',
         background: "linear-gradient(42deg, rgba(66,115,31,1) 0%, rgba(84,140,28,1) 100%) !important" ,
+        loading:'lazy',
         display:'inline-block',
         height: '100%',
         borderRadius: '0 350px 350px 0',
@@ -35,13 +36,14 @@ function Banner() {
                 width:{
                     sm:'100%',
                     md:'70%',
-                    lg:'30%',
+                    lg:'60%',
                     xl:'47%'
                 }
             }}  >
                 <Typography gutterBottom variant='h2' color='secondary' fontWeight='600' component='div' sx={{
                     width:{
                         xs:'70px',
+                        sm:'350px',
                         md:'450px',
                         lg:'550px'
                     },
@@ -50,8 +52,9 @@ function Banner() {
                 <Typography variant='body1' color='secondary' sx={{
                     height:'10.5rem',
                     width:{
-                        sm:'40px',
+                        sm:'350px',
                         md:'400px',
+                        lg:'550px',
                         xl:'500px'
                     }, 
                     whiteSpace: 'pre-line',  
