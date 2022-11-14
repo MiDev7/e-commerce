@@ -44,7 +44,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
-    height:'50px',
     width: '100%',
     [theme.breakpoints.up('xs')]: {
       width: '18ch',
