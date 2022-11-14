@@ -89,21 +89,23 @@ export default function SearchAppBar() {
             >
               <MenuIcon />
             </IconButton> */}
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: 'none' ,sm: 'none' , md:'block'} }}
-            >
-              OGS
-            </Typography>
+            <Box
+              component="img"
+              sx={{
+                height: 40,
+                width: 'auto',
+                maxHeight: { xs:0, md: 30 },
+              }}
+              alt="Online Garage Sale Logo"
+              src={`${process.env.PUBLIC_URL}/assets/GarageSaleWhite.png`}
+            />
             <Search sx={{
               marginInline:{
                 xs:'0px',
                 sm:'80px',
                 md:'100px',
                 lg:'150px',
-                xl:'400px'
+                xl:'300px'
               },
               
               width:'700px'}}>
