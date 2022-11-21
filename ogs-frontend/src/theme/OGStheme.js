@@ -42,6 +42,27 @@ const theme = createTheme({
               fontWeight: '600',
               color:'#413b3b'
             },
+          },
+          {
+            props: { variant: 'priceCart' },
+            style: {
+              height:'5px',
+              top:'0',
+              marginBottom:'13px',
+              fontSize: '14pt',
+              fontWeight: '600',
+              color:'#413b3b'
+            },
+          },
+          {
+            props: { variant: 'stockCart' },
+            style: {
+              height:'5px',
+              marginBottom:'10px',
+              fontSize: '10pt',
+              fontWeight: '400',
+              color:'#413b3b'
+            },
           }]
       }
     }

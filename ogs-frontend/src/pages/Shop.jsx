@@ -22,7 +22,7 @@ function Shop() {
     <React.Fragment>
       <Grid container spacing={2} sx={{paddingInline:'80px', paddingTop:'20px'}}>
         { 
-        products.map((product)=>(
+          products.map((product)=>(
           
             <Grid key={product.id} item lg={2} md={3}>
               <ProductCard id={product.id} image={product.images[0]} title={product.title} description={product.description} rating={product.rating} price={product.price} />

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import DrawerNavbar from './components/DrawerNavbar';
 import Home from './pages/Home';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/Shop' element={<Shop/>}/>
+          <Route path='/shop' element={<Shop/>}/>
+          <Route path='/cart' element={<Cart/>}/>
         </Routes>
       </Router>
     </ThemeProvider>
